@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @study.date %>
+</p>
+
+<p>
+  <strong>Field:</strong>
+  <%= @study.field %>
+</p>
+
+<p>
+  <strong>Studytime:</strong>
+  <%= @study.studytime %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @study.content %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @study.image %>
+</p>
+
+<%= link_to 'Edit', edit_study_path(@study) %> |
+<%= link_to 'Back', studies_path %>
